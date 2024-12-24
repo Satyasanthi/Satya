@@ -1,0 +1,105 @@
+.nall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.npart2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nabout,.ntitle,.nsold,.nlogout,.nlogin,.nsign,.hp,.hc,.ho,.hw{
+    height: 30px; /* Set the same height for all elements */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    margin: 0;
+   font-size: 18px;
+  }
+  .nabout{
+    background-color: #F5F5F5;
+    color:#333333;
+    border: none;
+    border-radius: 5px;
+  }
+  .nsearch{
+    background-color: #F5F5F5;
+    color:#333333;
+    border: none;
+    border-radius: 5px;
+    height: 30px; /* Set the same height for all elements */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    margin: 0;
+   font-size: 18px;
+  }
+  .noption{
+    width:fit-content;
+    max-width: 200px; /* Maximum width */
+  min-width: 50px;
+    background-color: #F5F5F5;
+    color:#333333;
+    border:none;
+    height: 30px; /* Set the same height for all elements */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+   font-size: 18px;
+    
+  }
+  .ns{
+    background-color: #F5F5F5;
+    color:#333333;
+    border:none;
+    height: 30px; /* Set the same height for all elements */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+   font-size: 18px;
+    
+  }
+  .ntitle{
+    text-align: center;
+    background-color: #f2f4f2;
+    position: center;
+    width:170px;
+    border: none;
+    border-radius: 5px;
+  }
+  .nsold{
+    background-color: #F5F5F5;
+    color:#333333;
+    border: none;
+    border-radius: 5px;
+  } 
+  .nlogout{
+    background-color: red;  
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  .nlogin{
+    background-color: #28a745;
+    color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .nsign{
+    background-color: #007bff;  
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  

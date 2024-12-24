@@ -1,0 +1,84 @@
+.aall{
+    display: flex;
+    flex-direction: row;
+}
+/* .A{
+    background-Color: #f0f4f7;
+} */
+.ah3{
+    text-align: center;
+}
+#a1{
+    display: grid;
+    grid-template-columns: 160px auto;
+    grid-gap: 10px;
+    align-items: center;
+    margin: 8px;
+}
+label {
+    text-align: left;
+    width:140px;
+  }
+
+.radio-item{
+    display: grid;
+    grid-template-columns: 160px auto;
+    grid-gap: 10px;
+    align-items: center;
+    margin: 8px;
+}
+.productlist{
+    margin: 3px;
+    margin-left: 10px;
+}
+.apart2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    border: 0.5px solid black;
+}
+.apart3{
+    margin:5px;
+    padding-left:5px; 
+}
+.apart4{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.remove{
+    margin-bottom: 10px;
+}
+.Add-button{
+    background-color: #28a745;  /* Green for success */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.Reset{
+    background-color: #f0ad4e;  /* Orange/Warning color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.aa{
+    display: grid;
+    grid-template-columns: 120px auto;
+    grid-gap: 3px;
+    align-items: center;
+}
+.aa label {
+    text-align: left;
+    width:50px;
+  }
+  

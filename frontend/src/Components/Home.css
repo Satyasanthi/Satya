@@ -1,0 +1,27 @@
+.hall{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.hpart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hpart2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 5px;
+}
+.hbb{
+    background-color: #455A64;
+    font-size: large;
+    color:aliceblue;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
